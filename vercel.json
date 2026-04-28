@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "knitting-garments-mgmt",
+    "buildCommand": "npm run build",
+    "outputDirectory": ".",
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ],
+    "env": {
+      "NODE_VERSION": "18.x"
+    }
+  }
